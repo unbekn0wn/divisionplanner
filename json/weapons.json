@@ -1,9 +1,6 @@
-{
-	"weapons":
-	[
-		{
-			"id": "bmak74",
-			"category": "Assault Rifle",
+{"weapons": {
+	"assault": {
+		"bmak74": {
 			"name": "Black Market AK-74",
 			"dmgMin": 8586,
 			"dmgMax": 9691,
@@ -11,9 +8,7 @@
 			"mag": 30,
 			"randomTalents": 3
 		},
-		{
-			"id": "tm249p",
-			"category": "Light Machine Gun",
+		"tm249p": {
 			"name": "Tactical M249 Para",
 			"dmgMin": 6171,
 			"dmgMax": 6966,
@@ -21,5 +16,23 @@
 			"mag": 100,
 			"randomTalents": 3
 		}
-	]
-}
+	},
+	"sidearms": {
+		"p1": {
+			"name": "Super pistol omega",
+			"dmgMin": 8586,
+			"dmgMax": 9691,
+			"rpm": 600,
+			"mag": 30,
+			"randomTalents": 3
+		},
+		"p2": {
+			"name": "not so ok pistol",
+			"dmgMin": 6171,
+			"dmgMax": 6966,
+			"rpm": 550,
+			"mag": 100,
+			"randomTalents": 3
+		}
+	}
+}}
